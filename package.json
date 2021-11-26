@@ -1,0 +1,21 @@
+{
+  "name": "graphql-builder",
+  "version": "1.0.0",
+  "repository": "git@github.com:gbar/graphql-builder.git",
+  "author": "gbar",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "yarn tsc",
+    "test": "yarn jest"
+  },
+  "dependencies": {
+    "ramda": "0.27.1"
+  },
+  "devDependencies": {
+    "@types/jest": "27.0.1",
+    "jest": "27.1.0",
+    "ts-jest": "27.0.5",
+    "typescript": "4.2.4"
+  }
+}
